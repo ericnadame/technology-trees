@@ -12,13 +12,17 @@
     "@baselime/node-opentelemetry": "^0.2.10",
     "@baselime/react-rum": "^0.2.5",
     "@tabler/icons-react": "^3.6.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.12",
     "gojs": "^3.0.4",
+    "mini-svg-data-uri": "^1.4.4",
     "next": "14.0.1",
     "pino": "^8.16.1",
     "preline": "^2.3.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-syntax-highlighter": "^15.5.0"
+    "react-syntax-highlighter": "^15.5.0",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
