@@ -6,7 +6,6 @@ const logger = pino();
 export default function Home() {
   return (
     <div className=" w-full bg-white  bg-dot-black/[0.2] relative flex items-center justify-center">
-      {/* Radial gradient for the container to give a faded look */}
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center  bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="h-screen  text-gray-900 flex flex-col pb-6">
         <div className="h-full flex flex-col justify-center">
