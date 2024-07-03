@@ -74,7 +74,6 @@ const Diagram: React.FC<DiagramProps> = ({ nodeDataArray, linkDataArray }) => {
         )
       );
 
-      // Define the link template
       diagram.linkTemplate = $(
         go.Link,
         { routing: go.Link.AvoidsNodes, curve: go.Link.JumpOver },
