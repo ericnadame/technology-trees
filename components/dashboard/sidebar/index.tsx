@@ -1,17 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import {
-  IconChevronDown,
-  IconChevronUp,
-  IconSearch,
-  IconBell,
-  IconMenu,
-  IconUser,
-  IconCoin,
-  IconDatabase,
-  IconHistory,
-  IconCode,
-  IconInfoSquareRounded,
-} from "@tabler/icons-react";
+import React, { useState } from "react";
+import { IconDatabase, IconHistory, IconCode } from "@tabler/icons-react";
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleAccordion = () => {
